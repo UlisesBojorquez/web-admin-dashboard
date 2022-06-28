@@ -1,6 +1,6 @@
 import React from 'react';
 import "./home.scss";
-import { Sidebar, Navbar, Widget } from '../../components';
+import { Sidebar, Navbar, Widget, Featured, Chart } from '../../components';
 const Home = () => {
 
     return (
@@ -13,6 +13,10 @@ const Home = () => {
                     <Widget type="order" />
                     <Widget type="earning" />
                     <Widget type="balance" />
+                </div>
+                <div className="app__home-charts">
+                    <Featured/>
+                    <Chart/>
                 </div>
             </div>
         </div>
