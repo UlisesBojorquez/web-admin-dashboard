@@ -1,7 +1,10 @@
-.home{
-    background-color: rebeccapurple;
+.app__home{
+   display: flex;
+//    flex-direction: row;
+//    justify-content: flex-start;
 
-    .title{
-        color: white;
-    }
+   .app__home-container{
+      flex:6;
+   }
+   
 }
