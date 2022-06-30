@@ -18,7 +18,7 @@ const Single = () => {
                         <div className="app__single-container-top-left-item"> 
                             <img 
                             src='https://images.pexels.com/photos/7562313/pexels-photo-7562313.jpeg?cs=srgb&dl=pexels-vazhnik-7562313.jpg&fm=jpg' 
-                            alt='picture' 
+                            alt='' 
                             className='app__single-container-top-left-itemImg' />
                             <div className="app__single-container-top-left-itemDetails">
                                 <h1 className="app__single-container-top-left-itemDetails-title">Mark Garcia</h1>
