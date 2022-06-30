@@ -2,6 +2,27 @@
     height: 600px;
     padding: 20px;
 
+    .app__datatable-title{
+        width: 100%;
+        font-size: 24px;
+        color: gray;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .app__datatable-link{
+            text-decoration: none;
+            color: green;
+            font-style: 16px;
+            font-weight: 400;
+            border: 1px solid green;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+
     .app__datatable-cellWithImg{
         display: flex;
         align-items: center;
@@ -40,7 +61,7 @@
         align-items: center;
         gap: 15px;
 
-        .app__detatable-viewButton{
+        .app__datatable-viewButton{
             padding: 2px 5px;
             border-radius: 5px;
             color: darkblue;
@@ -48,7 +69,7 @@
             cursor: pointer;
         }
 
-        .app__detatable-deleteButton{
+        .app__datatable-deleteButton{
             padding: 2px 5px;
             border-radius: 5px;
             color: crimson;

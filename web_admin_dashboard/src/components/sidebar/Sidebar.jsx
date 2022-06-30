@@ -12,13 +12,16 @@ import PsychologyIcon from '@mui/icons-material/Psychology';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LogoutIcon from '@mui/icons-material/Logout';
+import {Link} from "react-router-dom";
 
 const Sidebar = () => {
 
     return (
         <div className='app__sidebar'>
             <div className="app__sidebar-top">
-                <span className="app__sidebar-top-logo">UlisesAdmin</span>
+                <Link to="/" style={{textDecoration:"none"}}>
+                    <span className="app__sidebar-top-logo">UlisesAdmin</span>
+                </Link>
             </div>
             <hr />
             <div className="app__sidebar-center">
@@ -29,14 +32,18 @@ const Sidebar = () => {
                         <span>Dashboard</span>
                     </li>
                     <p className="app__sidebar-center_title">LISTS</p>
-                    <li>
-                        <PersonIcon className='app__sidebar-center-icon'/>
-                        <span>Users</span>
-                    </li>
-                    <li>
-                        <StoreIcon className='app__sidebar-center-icon'/>
-                        <span>Products</span>
-                    </li>
+                    <Link to="/users" style={{textDecoration:"none"}}>
+                        <li>
+                            <PersonIcon className='app__sidebar-center-icon'/>
+                            <span>Users</span>
+                        </li>
+                    </Link>
+                    <Link to="/products" style={{textDecoration:"none"}}>
+                        <li>
+                            <StoreIcon className='app__sidebar-center-icon'/>
+                            <span>Products</span>
+                        </li>
+                    </Link>
                     <li>
                         <CreditCardIcon className='app__sidebar-center-icon'/>
                         <span>Orders</span>
