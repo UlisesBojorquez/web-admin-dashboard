@@ -1,0 +1,68 @@
+.app.dark{
+    background-color: #111;
+    color: rgb(156, 156, 156);
+
+    .app__chart-grid{
+        stroke: rgba(228, 228, 228, 0.219);
+    }
+
+    .app__table{
+        background-color: #111;
+
+        .app__table-tableCell{
+            color:gray;
+        }
+    }
+
+    .app__navbar{
+        color: #999;
+        border-color: #333;
+
+        .app__navbar_wrapper-search{
+            border-color: gray;
+        }
+    }
+
+    .app__sidebar{
+        background-color: #111;
+        border-color: #333;
+
+        .app__sidebar-top{
+            .app__sidebar-top-logo{
+                color:#999;
+            }
+        }
+        hr{
+            border-color: #333;
+        }
+
+        ul{
+            li{
+                &:hover{
+                    background-color: #333;
+                }
+
+                .app__sidebar-center-icon{
+                    color: #999;
+                }
+            }
+        }
+    }
+
+    .app__datatable{
+
+        .app__datagrid{
+            color: gray;
+            border: none;
+
+            .app__datatable-viewButton, .app__datatable-deleteButton, .app__datatable-cellWithStatus{
+                color: gray;
+                border: none;
+            }
+        }
+    }
+
+    input{
+        background-color: transparent;
+    }
+}
