@@ -12,7 +12,7 @@ const Home = () => {
                     <Widget type="user" />
                     <Widget type="order" />
                     <Widget type="earning" />
-                    <Widget type="balance" />
+                    <Widget type="product" />
                 </div>
                 <div className="app__home-charts">
                     <Featured/>
